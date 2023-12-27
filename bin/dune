@@ -1,0 +1,4 @@
+(executable
+ (public_name vault)
+ (name main)
+ (libraries vault dream dream-html))
