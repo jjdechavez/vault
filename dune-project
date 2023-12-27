@@ -18,8 +18,15 @@
 (package
  (name vault)
  (synopsis "A short synopsis")
- (description "A longer description")
- (depends ocaml dune dream dream-html)
+ (description "Place to store your ideas")
+ (depends
+  (ocaml (>= 5.1.1))
+  (dune
+  (>= 3.12))
+  (dream
+  (= 1.0.0~alpha5))
+  (dream-html
+  (= 2.0.0)))
  (tags
   (topics "to describe" your project)))
 

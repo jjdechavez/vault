@@ -10,10 +10,10 @@ homepage: "https://github.com/username/reponame"
 doc: "https://url/to/documentation"
 bug-reports: "https://github.com/username/reponame/issues"
 depends: [
-  "ocaml"
-  "dune" {>= "3.12"}
-  "dream"
-  "dream-html"
+  "ocaml" {>= "5.1.1"}
+  "dune" {>= "3.12" & >= "3.12"}
+  "dream" {= "1.0.0~alpha5"}
+  "dream-html" {= "2.0.0"}
   "odoc" {with-doc}
 ]
 build: [
